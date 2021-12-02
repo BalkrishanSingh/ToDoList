@@ -1,0 +1,8 @@
+CREATE DATABASE To_Do_Flask;
+USE To_Do_Flask;
+CREATE TABLE ToDo(
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Content VARCHAR(200) NOT NULL,
+    Completed INT,
+    Date_Created DATETIME
+);
